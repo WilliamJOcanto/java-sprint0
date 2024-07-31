@@ -18,9 +18,10 @@ public class Calculator implements CalculatorOperations{
     }
 
     @Override
-    public double division(double num1, double num2) throws ArithmeticException {
+    public double division(double num1, double num2) {
         if (num2 == 0) {
-            throw new ArithmeticException("No se puede dividir por cero");
+            System.out.println("Cannot divide by zero");
+            return Double.NaN;
         }
         return num1 / num2;
     }

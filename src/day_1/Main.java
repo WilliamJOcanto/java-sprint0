@@ -75,7 +75,6 @@ public class Main {
         //Exercise 10:
         makingCalculator();
 
-        //Exercise 11:
 
     }
 
@@ -224,14 +223,4 @@ public class Main {
 
     }
 
-    public static void bowlingMenu(){
-        Scanner optionMenu = new Scanner(System.in);
-        System.out.println("Bowling menu");
-        System.out.println("Select an option: (1)Data entry (2)Available capacity (3)Collected money (4)Log out");
-
-//        int optio
-//
-//        switch ()
-
-    }
 }

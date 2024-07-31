@@ -7,13 +7,13 @@ public class Main {
 
         CalculatorMenu calculatorMenu = new CalculatorWithMenu();
         Scanner scanner = new Scanner(System.in);
-        int choice;
+        int option;
 
         do {
             calculatorMenu.displayMenu();
-            choice = scanner.nextInt();
-            calculatorMenu.executeOperation(choice);
-        } while (choice != 0);
+            option = scanner.nextInt();
+            calculatorMenu.executeOperation(option);
+        } while (option != 0);
 
         scanner.close();
     }

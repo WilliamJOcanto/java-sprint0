@@ -53,18 +53,14 @@ public class CalculatorWithMenu implements CalculatorMenu {
                 double div1 = scanner.nextDouble();
                 System.out.print("Enter divisor: ");
                 double div2 = scanner.nextDouble();
-                try {
                     result = calculator.division(div1, div2);
-                } catch (ArithmeticException e) {
-                    System.out.println("Error: " + e.getMessage());
-                }
                 break;
             case 0:
                 System.out.println("Exiting...");
                 System.exit(0);
                 break;
             default:
-                System.out.println("Invalid choice");
+                System.out.println("Invalid option");
         }
         System.out.println("Result: " + result);
     }
